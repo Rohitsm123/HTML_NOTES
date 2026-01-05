@@ -56,3 +56,31 @@ Here It Highlights the Rohit.
 18) style attribute :
 <h3 style="text-align: center; background-color:blue"> This Tag Need Some Stylings </h3>
 This is the Inline styling where we can style the contents.
+
+19) colors :
+There are 5 ways :
+i)    color :blue;
+ii)   color :rgb(50,60,70)
+      r :red value from 0-250.
+      g :green value from 0-250.
+      b :blue value from 0-250.
+iii)  color :rgba(50,60,70,0.5)
+      a :Alpha channel simply opacity value from 0-1.
+iV)   color :hsl(260,50%,60%)
+      h :hue value differ from 0-360.
+      s :saturation 0-100%.
+      l :lightness 0-100%.
+v)    color :hsla(270,80%,70%,1)
+      a :Alpha channel simply opacity value from 0-1.
+
+20) Quote Tag :
+<q> This is My Quote. </q> 
+It shows in a double quote.
+
+21) Abbreviation Tag :
+<abbr title="Hyper Text Markup Language">HTML</abbr><br/>
+When including an abbreviation or acronym, provide a full expansion of the term in plain text on first use, along with the <abbr> to mark up the abbreviation. This informs the user what the abbreviation or acronym means.
+
+22)<bdo> Tag :
+<bdo dir="rtl">Rohit</bdo>
+ The <bdo> HTML element overrides the current directionality of text, so that the text within is rendered in a different direction.
