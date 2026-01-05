@@ -1,6 +1,8 @@
-1) <h1>Heading One</h1> //this is elements
+1) <h1>Heading One</h1> :
+This is elements
 
-2) <h1></h1> //this is tag name
+2) <h1></h1> :
+this is tag name
 
 3) <h1 title="Heading One">Heading</h1>
    //inside the h1 tag there is a title called a property that is a attribute.
