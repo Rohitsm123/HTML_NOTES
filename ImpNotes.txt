@@ -18,5 +18,41 @@ It helps to break to the next line at a specific place.
 7) <hr> Tag :
 To give a Horizontal line we use this tag.
 
-8)<pre> Tag :
+8) <pre> Tag :
 The pre HTML element represents preformatted text which is to be presented exactly as written in the HTML file.
+
+9) Commenting a line in HTML :
+<!-- we use -->
+
+10) Bold Tag :
+ <b> Information </b> //we use this tag for bolding a line.
+
+11) Strong Tag :
+<strong> Important information </strong>
+It bolds the line which is important.
+
+12) Italic font :
+<i> Italic Font </i>
+
+13) small Tag :
+<small> It makes letters small </small>
+
+14) sub Tag :
+<p> H2 </p><sub> O </sub>
+Subscripts are typically rendered with a lowered baseline using smaller text.
+
+15) sup Tag :
+<p> H2 <sup> O </sup></p>
+This will return as H2 power O.
+
+16) Del tag :
+<p><del> Here is the Deleted ctext </del> Here is the New Line </p>
+Here it strike-outs the Line which is inside the <del> Tag.
+
+17) Mark Tag:
+<p>My Name is <mark> Rohit </mark> </p>
+Here It Highlights the Rohit.
+
+18) style attribute :
+<h3 style="text-align: center; background-color:blue"> This Tag Need Some Stylings </h3>
+This is the Inline styling where we can style the contents.
