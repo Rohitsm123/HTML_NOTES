@@ -1,14 +1,16 @@
 1) <h1>Heading One</h1> :
-This is elements
+This is elements.
 
 2) <h1></h1> :
-this is tag name
+this is tag name.
 
 3) <h1 title="Heading One">Heading</h1>
    //inside the h1 tag there is a title called a property that is a attribute.
 
 4) Anchor Element Tag :
-<a href= " the link that you provide here" > The name You give here </a>
+There is attribute called target="_blank" 
+It helps browser to open in a new tab.
+<a target="_blank" href="http://google.com">Google</a>
 
 5) Heading Element :
 There are 6 Heading tag :
@@ -86,3 +88,29 @@ When including an abbreviation or acronym, provide a full expansion of the term 
 22)<bdo> Tag :
 <bdo dir="rtl">Rohit</bdo>
  The <bdo> HTML element overrides the current directionality of text, so that the text within is rendered in a different direction.
+
+23) Image Tag :
+<img src="./image.web" width="400px" height="500px" alt="No_Image" >
+This is the common image tag which we can use in our website.
+
+We can generate image map where we can click on the image where we set the mappings that gives alert messages.
+ <!-- Image Map Generated -->
+<img src="image.webp" usemap="#image-map">
+<map name="image-map">
+    <area onclick="One()" target="" alt="" title="" href="" coords="193,314,141,235" shape="rect">
+    <area onclick="Two()" target="" alt="" title="" href="" coords="189,379,240,442" shape="rect">
+</map>
+<script>
+    function One()
+    {
+        alert("You take the blessings from hand of ganesh")
+    }
+    function Two()
+    {
+        alert("You take the blessings from Leg of ganesh")
+    }
+</script>
+
+24) Script Tag :
+<script> JavaScript Code </script>
+This is tag where we write inside the body tag in this we write a JavaScript code.
