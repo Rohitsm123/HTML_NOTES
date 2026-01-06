@@ -114,3 +114,21 @@ We can generate image map where we can click on the image where we set the mappi
 24) Script Tag :
 <script> JavaScript Code </script>
 This is tag where we write inside the body tag in this we write a JavaScript code.
+
+25) Table Tag :
+<table>
+<tr>
+<th>
+<td></td>
+</th>
+</tr>
+</table>
+The <table> HTML element represents tabular data—that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.
+We can combine the cells by ussing rowspan & colspan, rowspan for the rows and colspan for the columns.
+Note : We can style the table inside the style tag.
+
+26) Colgroup Tag :
+<colgroup>
+        <col span="2" style="background-color: aqua;color: black;"  />
+    </colgroup>
+The <colgroup> HTML element defines a group of columns within a table.
