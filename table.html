@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        td ,th{
+            border:1px solid black;
+            padding: 10px;
+
+        }
+
+        tr:nth-child(even){
+            background-color: #878080;
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- COMMON-TABLE -->
+    <table style="width:100%">
+        <colgroup>
+        <col span="2" style="background-color: aqua;color: black;"  />
+    </colgroup>
+        <tr>
+            <th>Country</th>
+            <th>Country Code</th>
+            <th>Email</th>
+        </tr>
+
+        <tr>
+            <td>INDIA</td>
+            <td>IN</td>
+            <td>india@google.com</td>
+        </tr>
+        <tr>
+            <td>FRANCE</td>
+            <td>FR</td>
+            <td>france@google.com</td>
+        </tr>
+        <tr>
+            <td>USA</td>
+            <td>US</td>
+            <td>usa@google.com</td>
+        </tr>
+        <tr>
+            <td>CHINA</td>
+            <td>CN</td>
+            <td>china@google.com</td>
+        </tr>
+
+    </table>
+
+
+    <!-- HORIZONTAL-TABLE -->
+    <table>
+        <tr>
+            <th>COUNTRY</th>
+                <td>INDIA</td>
+                <td>JAPAN</td>
+           
+        </tr>
+        <tr>
+            <th>CODE</th>
+                <td>IN</td>
+                <td>JN</td>
+        </tr>
+    </table>
+    
+
+<!-- COL-SPAN -->
+<table>
+    <th colspan="2">Letters</th>
+    <th colspan="2">Numbers</th>
+        <tr>
+            <td>A</td>
+            <td>F</td>
+            <td>1</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>G</td>
+            <td>2</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>H</td>
+            <td>3</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>I</td>
+            <td>4</td>
+            <td>8</td>
+        </tr>
+</table>
+
+
+<!-- ROW-SPAN -->
+<table>
+    <th colspan="2">Letters</th>
+    <th colspan="2">Numbers</th>
+    <th rowspan="6">LBREAK</th>
+        <tr>
+            <td>A</td>
+            <td>F</td>
+            <td>1</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>G</td>
+            <td>2</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>H</td>
+            <td>3</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>I</td>
+            <td>4</td>
+            <td>8</td>
+        </tr>
+</table>
+
+
+</body>
+</html>
