@@ -1,3 +1,6 @@
+Notes :
+* To use free images and videos visit - https://www.pexels.com
+
 1) <h1>Heading One</h1> :
 This is elements.
 
@@ -233,3 +236,29 @@ The <form> HTML element represents a document section containing interactive con
         <br >
     <button type="button">Submit</button>
     </form>
+
+34) Input elements :
+<form action="" method="get">
+        <label for="firstN">First Name :</label>
+        <input type="text" placeholder="Enter Your First Name"  name="" id="firstN" value="Rohit">
+        <br >
+
+        <input type="reset" value="reset">
+        <input type="password" name="" id="">
+        <button type="button">Submit</button>
+        <input type="week" name="" id="">
+        <input type="email" name="" id="">
+
+    <select name="Default" id="" multiple >
+        <option value="VS Code">VS Code</option>
+        <option value="sublimeText">sublimeText</option>
+    </select>
+    </form>
+
+35) Integrating Videos & Audios In HTML :
+1) For Videos We USe :
+<video src="./videoForHtml.mp4" width="320" height="240" muted autoplay controls ></video>
+
+2) For Audios We USe :
+ <audio src="">
+    </audio>
