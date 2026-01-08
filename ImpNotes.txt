@@ -204,7 +204,7 @@ iV) If the itemprop attribute is set, the <meta> element provides user-defined m
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 This is the important meta tag, Where it helps in the mobile devices.
 
-30)Semantic elements :
+32)Semantic elements :
 These are some semantic elements available:
 
 <article>
@@ -222,3 +222,14 @@ These are some semantic elements available:
 <summary>
 <time>
 
+33) Form Tag :
+The <form> HTML element represents a document section containing interactive controls for submitting information.
+<form action="" method="get">
+        <label for="firstN">First Name :</label>
+        <input type="text" placeholder="Enter Your First Name"  name="" id="firstN">
+        <br >
+        <label for="lastN">Last Name :</label>
+        <input type="text" placeholder="Enter Your Last Name"  name="" id="lastN">
+        <br >
+    <button type="button">Submit</button>
+    </form>
